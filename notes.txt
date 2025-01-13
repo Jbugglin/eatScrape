@@ -1,0 +1,21 @@
+Scraping yellowpages
+
+https://www.yellowpages.com/search?search_terms=restaurants&geo_location_terms=Columbus%2C+OH
+
+Name 
+address
+URL if any
+
+
+Name is in <h2 class="n">
+		<a class="business-name">
+	   </h2>
+
+URL is in <div class="links">
+		<a href> with innerText of Website
+	  </div>
+
+Address is in <div class="info-section info-secondary">
+		  <div class="phone">innerText for phone#
+		  <p class="adr">innerText for address
+	      </div>
